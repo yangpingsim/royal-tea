@@ -1,0 +1,66 @@
+#a5{
+	padding: 100px 200px;
+}
+#a5 img{
+	float: left;
+	padding:10px 2px;
+}
+#a5 h4{
+	text-align: center;
+
+}
+body, html {
+	width: 100%;
+    height: 100%;
+   margin: 0;
+   
+}
+
+.hero-image {
+  background-image: url("image r/r5.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#ffffcc;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #555;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color:#ddd;
+  color: black;
+}
+.bc{
+  padding: 50px;
+ background-color: black;
+}
+.a6 {
+	text-align: center;
+	color: white;
+}
+.a6 h3{
+	padding: 50px;
+}
+.color{
+	color: #990000;
+}

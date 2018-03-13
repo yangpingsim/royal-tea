@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device=width, initial-scale=1">
+	<script src="script.js"></script>
+	<title>Royaltea</title>
+	<link rel="stylesheet" type="text/css" href="styleroyal.css">
+	<link rel="stylesheet" type="text/css" href="styleroyal2.css">
+<link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet">
+	<title></title>
+<link rel="stylesheet" type="text/css" href="styleroyal3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+	
+<div class="a1" id="a11">
+<img class="a2" src="image r/royaltealogo.png" width="255px" height="55px" >
+
+	<a href="contact.html">Contact</a>
+	<a href="career.html">Career</a>
+	<a href="licensing.html">Licensing</a>
+	<a href="menu.html">Menu</a>
+	<a href="home.html">Home</a>
+</div>
+
+<div class="slideshow-container">
+	<div class="mySlides fade">
+		<img src="image r/tea1.jpg" style="width: 100%">
+	</div>
+	<div class="mySlides fade">
+		<img src="image r/tea2.jpg" style="width: 100%">
+	</div>
+	<div class="mySlides fade">
+		<img src="image r/tea3.jpg" style="width: 100%">
+	</div>
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<div style="text-align: center;">
+	<span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+<h2>Refined tea in a contemporary setting,<br>Royaltea invites you to an unique journey<br>through authentic flavours</h2>
+
+<div class="main">
+<div class="row">
+	<div class="a3">
+		<div class="a4">
+<img src="image r/r1.jpg" width="100%">
+<h4>ROYAL CHEESE</h4>
+<p>Royal cheese Milik Cream is our featured product that differentiales us from the rest</p>
+</div>
+</div>
+
+<div class="a3">
+	<div class="a4">
+<img src="image r/r2.jpg" width="100%">
+<h4>FRUIT TEA</h4>
+<p>natural freshness,healthy choices</p>
+</div>
+</div>
+<div class="a3">
+	<div class="a4">
+<img src="image r/r3.jpg" width="100%">
+<h4>MILK TEA</h4>
+<p>Traditional milk tea with a twist of a different sweetness that will brighlen your day</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="a5">
+<h3>ABOUT US</h3>
+<img src="image r/r4.jpg" width="50%">
+<h4>Royaltea Malaysia</h4>
+<p>With the concept of "natural,healthy and delicious".we seek to seek to create a new style of leisure drinks and food.</p><br>
+<p>Our specialty is making our drinks with modern technology an infusing with traditional charm.By doing this and adding different elements, we constantly come up with changing flavours.</p>
+<br>
+<p>We incorporate our concept in our shop's decoration as well,giving our patrons a sense of return to nature.While drinking the best tea on offer.Thus bringing the best relaxation.</p>
+<br>
+<p>Royaltea hopes to be able to combine leisureand culture by bringing high quality tea drinks and snack to places near you.</p>
+</div>
+<br><br><br><br><br><br><br><br>
+
+
+<div class="hero-image">
+	<div class="hero-text">
+   <h2 style="font-size: 50px;">JOIN US NOW<br>Full Time & Part Time</h2>
+   <div class="butt">
+   <button><a href="career.html">Find Out More</a> </button>
+</div>
+	</div>
+</div>
+<div class="bc">
+<div class="a6">
+	<h4>NOBLETEA & CAFE SDN BHD</h4>
+	<br>
+    <p>Sunday to thursday-11am-2am<br>Friday and Saturday-11am-3am</p>
+    <p>No.23.Jaln sutera Tanjung 8/3,Taman sutera Utama,81300 Skudai,Johor</p>
+    <br>
+    <p class="color">LICENSING HOTLINE:<br><br>011-34229888 FOR<br><br>MALAYSAI,SINGAPORE,THAILAND,INDONESIA,VIETNAM<br><br>019-7562326 FOR KL ONLY<br><br>017-7726269 FOR KL ONLY<br><br>011-36009335 FOR PENANG,PERAK,PERLIS & KEDAH</p>
+	</div>
+	<a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+</div>
+</body>
+
+</html>

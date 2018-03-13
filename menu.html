@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device=width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styleroyal4.css">
+</head>
+<body>
+<div class="a1" id="a11">
+<img class="a2" src="image r/royaltealogo.png" width="255px" height="55px" >
+
+	<a href="contact.html">Contact</a>
+	<a href="career.html">Career</a>
+	<a href="licensing.html">Licensing</a>
+	<a href="menu.html">Menu</a>
+	<a href="home.html">Home</a>
+</div>
+
+<div class="slideshow-container">
+	<div class="mySlides fade">
+		<img src="image r/ro1.jpg" width="100%">
+	</div>
+	<div class="mySlides fade">
+		<img src="image r/ro2.jpg" width="100%">
+	</div>
+	<div class="mySlides fade">
+		<img src="image r/ro3.jpg" width="100%">
+	</div>
+	<div class="mySlides fade">
+		<img src="image r/ro4.jpg" width="100%">
+	</div>
+	<div class="mySlides fade">
+		<img src="image r/ro5.jpg" width="100%">
+	</div>
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<div style="text-align: center;">
+	<span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+   <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<br>
+<div class="b1">
+	<h2>METHOD OF TASTING</h2>
+	<h3>When tasting the Royal Cheese series, do not use the <br>straw.Open the cap and tilt the cup to 45 degrees.Let<br> your lips close contact with the cheese and the drink <br>
+	underneath.Enjoy~~~</h3>
+</div>
+<div class="b2">
+	<img src="image r/03.jpg" width="100%">
+</div>
+<br>
+<nav class="b3">
+	<a href="Royal cheese.html">Royal Cheese</a>
+	<a href="Royal coffee.html">Royal Coffee</a>
+	<a href="Durian milk.html">Durian Milk</a>
+	<a href="Milk tea.html">Milk Tea</a>
+	<a href="Fruit series.html">Fruit Series</a>
+</nav>
+<br>
+
+<h2>MENU HIGHLIGHTS</h2>
+<div class="c1">
+	<img src="image r/mmNl2GJu1fIKy0HOVPh8VwLA7FcAZrSm9SYOCcrizUDnhKERNzGVqoRQot6YUkEez7Q8WuKTtaF8CIH87WE=s1299.jpg" width="100%">
+</div>
+<div class="c2">
+	<h2>NOBLETEA & CAFE SDN BHD</h2>
+	<br>
+	<h3>No.23 Jalan Sutera Tanjung 8/3,Taman sutera Utama,<br>81300 Skudai,Johor</h3>
+</div>
+
+</body>
+</html>
