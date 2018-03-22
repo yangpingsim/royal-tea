@@ -2,19 +2,32 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device=width, initial-scale=1">
-	<title></title>
+	<title>Royal Tea-Menu</title>
 	<link rel="stylesheet" type="text/css" href="styleroyal4.css">
 </head>
 <body>
-<div class="a1" id="a11">
-<img class="a2" src="image r/royaltealogo.png" width="255px" height="55px" >
-
+<div class="topnav" id="myTopnav">
+	<img src="image r/royaltealogo.png" width="200px" height="55px">
+	
 	<a href="contact.html">Contact</a>
 	<a href="career.html">Career</a>
 	<a href="licensing.html">Licensing</a>
 	<a href="menu.html">Menu</a>
 	<a href="home.html">Home</a>
+	 <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	
 </div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
 
 <div class="slideshow-container">
 	<div class="mySlides fade">
@@ -87,6 +100,7 @@ function showSlides(n) {
 	<a href="Milk tea.html">Milk Tea</a>
 	<a href="Fruit series.html">Fruit Series</a>
 </nav>
+
 <br>
 
 <h2>MENU HIGHLIGHTS</h2>

@@ -3,27 +3,39 @@
 <head>
 	<meta name="viewport" content="width=device=width, initial-scale=1">
 	<script src="script.js"></script>
-	<title>Royaltea</title>
+	<title>Royaltea-Home</title>
+	<link rel="stylesheet" type="text/css" href="style0.css">
 	<link rel="stylesheet" type="text/css" href="styleroyal.css">
 	<link rel="stylesheet" type="text/css" href="styleroyal2.css">
 <link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet">
-	<title></title>
+	
 <link rel="stylesheet" type="text/css" href="styleroyal3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
-
-	
-<div class="a1" id="a11">
-<img class="a2" src="image r/royaltealogo.png" width="255px" height="55px" >
+<div class="topnav" id="myTopnav">
+	<img src="image r/royaltealogo.png" width="200px" height="55px">
 
 	<a href="contact.html">Contact</a>
 	<a href="career.html">Career</a>
 	<a href="licensing.html">Licensing</a>
 	<a href="menu.html">Menu</a>
 	<a href="home.html">Home</a>
+	 <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	
 </div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+
 
 <div class="slideshow-container">
 	<div class="mySlides fade">
@@ -120,9 +132,7 @@ function showSlides(n) {
 <div class="hero-image">
 	<div class="hero-text">
    <h2 style="font-size: 50px;">JOIN US NOW<br>Full Time & Part Time</h2>
-   <div class="butt">
-   <button><a href="career.html">Find Out More</a> </button>
-</div>
+  
 	</div>
 </div>
 <div class="bc">
@@ -134,7 +144,10 @@ function showSlides(n) {
     <br>
     <p class="color">LICENSING HOTLINE:<br><br>011-34229888 FOR<br><br>MALAYSAI,SINGAPORE,THAILAND,INDONESIA,VIETNAM<br><br>019-7562326 FOR KL ONLY<br><br>017-7726269 FOR KL ONLY<br><br>011-36009335 FOR PENANG,PERAK,PERLIS & KEDAH</p>
 	</div>
-	<a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+	
+    <a href="https://www.facebook.com/RoyalteaMalaysia/"><img src="image/facebook.png" width="50px"></a>
+    <a href="https://www.instagram.com/explore/locations/220695411655460/royaltea/"><img src="image/instagram.jpg" width="50px"></a>
+    <a href="https://youtu.be/eLj5tKhX3EI"><img src="image/YouTube.max-2800x2800.png" width="50px"></a>
 </div>
 </body>
 
